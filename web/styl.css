@@ -1,0 +1,59 @@
+.img1 , .img2 ,.imggp{
+	position: relative;
+/*	opacity: 0.90;
+*/	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img2{
+	background-image: url("imgg2.jpg");
+	min-height: 70vh;
+	background-position: center;
+
+}
+.img1{
+	background-image: url("imgg1.jpg");
+	min-height: 80vh;
+	/*background-position: center;*/
+}
+.imggp{
+	background-image: url("imggp.png");
+	min-height: 45vh;
+	background-position: center;
+}
+hr{
+ border-width: 2px;
+ border-style: outset;
+ color: blue;
+ length: 60%;
+}
+#form{
+	color: yellow;
+	flood-color: blue;
+}
+#tab{
+	width: 90%;
+	background-color: black;
+	/*border-collapse: collapse;*/
+	border:3px solid yellow; 
+	border-radius: 25px;
+
+}
+#tab th{
+	border:2px solid #00FF00;
+	padding: 5px;
+
+}
+#tab tr:nth-child(even){
+	background-color: #101010;
+	color: #CC3300;
+}
+#tab tr:first-child{
+	background-color: #EEAABB;
+	font: bold 25px Tangerine;
+	color: #555555;
+}
+#foot{
+	text-align: right;
+}

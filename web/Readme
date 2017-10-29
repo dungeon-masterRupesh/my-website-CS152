@@ -1,0 +1,17 @@
+>>The Inlab webPage was first of all made properly aligned and browser window sensative by using "vw" unit which was a webresult from stack-overflow 
+<https://stackoverflow.com/questions/16056591/font-scaling-based-on-width-of-container>.
+>>The base of text is table wise division was fixed using % width of window and the font was customised by the help of size attribute with vw units.
+>>External image editing tool was used to properly crop up the image for the webpage.
+>>Then using Bootstrap 'Navbar' was created which changed into a drop down menu if browser window reduced{mainly mobile browser}. (.parallax) feature was introduced because a simple hack of keeping image scrolling in-sensitive game a nice touch to the page. Bootstrap also helped in other ways like gliphicons.
+>>The W3School.com came as a huge help to be a reference to Syntax.
+
+>>ALSO IMPORTANTLY all the feature implemented was first understood and then only used.
+>>Google Fonts APi was used(tangerine & lato).
+>>A HTML form was created.
+>>Animation in the navbar was created using padding effect with transition in css learned from
+<http://learn.shayhowe.com/advanced-html-css/transitions-animations> .
+
+>>Credits page was created to pay credit to all the help that came.
+How to use a pop-up using title was a hit & trial discovery.
+<Credit hyperlink in the footer>
+>>Textures image used in background was cited in the credits page.

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY FORMAL INTRO</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+           <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+          <!--
+          using google fonts online-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>        
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--Credits to bootstrap.com for these links -->
+  <link rel="stylesheet" type="text/css" href="styl.css">
+<style type="text/css">
+body{
+	margin: 5px 25px 10px;
+	
+	height: 100%;
+	color: yellow;
+	/*background-color: #E1BBBB;*/
+	background-image: url(back.jpg);
+	/*image credit
+	https://www.shutterstock.com/image-photo/wall-consists-green-hedge-rich-beautiful-435863581?src=p7NJ5gQmiPwC4PDem0CsEA-1-0*/
+	font-size: 2vw;
+
+
+}
+a{
+	color:yellow;
+}
+a:hover{
+/*	background-color: red;
+*/color: teal;
+}
+
+#intr{
+	color: yellow;
+	font-family: "Tangerine";
+	font-size: 8vw;
+}
+#tabl{
+	spacing:0;
+	padding:0;
+	font-family: 'Lato',serif;
+	font-size: 3vw;
+	background-image: url(cc2.jpg);
+	/*
+	image credit
+	https://s-media-cache-ak0.pinimg.com/236x/aa/56/da/aa56da4196427753eb6205248b2a50b6.jpg
+	*/
+	margin-top: 8vh;
+
+}
+#proj{
+	background-color: black;
+}
+#profil{
+	width : 100%;
+	min-width: 3vw;
+}
+#cont{
+	font-size: 150%;
+	font-style: italic;
+	background-image: url(cc2.jpg);
+			}
+#int{
+	margin: 5px 25px 5px;
+	font: italic bold 3vw Georgia, serif;
+	color: yellow;
+}
+/*ul li a{
+	display: block;
+	/*ackground-color: #555555;
+}
+ul li a:hover{
+	background-color: #555555;
+	color: yellow;
+}*/
+@media only screen and (max-device-width:1024px){
+	background-attachment: fixed;
+
+	}/*this part of code is cited from
+	https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax_device
+	*/
+.navbar{
+	opacity: 0.9;
+	transition-property: padding;
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+}
+.navbar:hover{
+	opacity: 1.0;
+	padding-left: 1vw;
+}	
+.navbar-header{
+	font-family: 'Tangerine';
+	font-size: 5vw;
+	font-weight: bold;
+}
+#myNavbar{
+	font-size: 3vw;
+	float: right;
+	margin-top: 5vh;
+}
+#myNavbar ul li{
+	transition-property: padding;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+/*
+transition effect learned from
+*/} 
+#myNavbar ul li:hover{
+	background-color: #555555;
+	padding-left: 1vh;
+	padding-right: 1vh;
+}
+#intres,#conta,#tabll,#edu,#proje{
+	padding-top: 12vh;
+}
+/*#myNavbar ul liactive{
+	opacity: 0.0;
+	background-color: blue;
+}
+*/
+</style>
+<script type="text/javascript">
+	
+	// document.getElementById('intr').onclick = function(){
+	// 	myFunction()
+	// }
+	// function myFunction(){
+	// 	document.getElementById('intr').innerHTML = 'A';
+	// }
+</script>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50"
+>
+<!-- 
+bootstrap for scrollspy -->
+<!--Credits to W3school.com for all its help in finding use of various tags and attribute-->
+<!-- To Do list
+read bootstrap
+
+make a navigation bar
+
+ -->
+ <!-- this part studied and applied https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_navbar_collapse&stacked=h -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<div  class="navbar-header">
+			>> Hello World		
+		
+<button type="button" class="navbar-toggle" id = "b"data-toggle="collapse" data-target="#myNavbar">
+			<!-- <span class="icon-bar"></span>
+			V -->
+			<span class="glyphicon glyphicon-list"></span>
+		</button>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+			<li class="active">
+			<a href="#tabll"> Home</a>
+			</li>
+			<li>
+			<a href="#intres">Interest</a>
+		</li>
+		<li>
+			<a href="#proje"> Project</a>
+		</li>
+		<li>
+			<a href="#conta">Contact</a> 
+		</li>
+		<li>
+			<a href="#edu">Education</a> 
+		</li>	
+			</ul>
+		</div>
+
+	</div>
+	
+</nav>
+<font size = 5px>
+<div id="tabll">
+<table id="tabl">
+	<!-- <thead>
+	<h1 style=" text-align: center;
+	color: teal;
+	"> >> HELLO WORLD</h1>	
+	</thead> -->
+	<tbody>
+		
+		<tr>
+			<td width="20%">
+				<img src = "prof.jpg"id = "profil">
+			</td>
+			<td width="60%">
+<table align="center">			
+	<tr>
+		<td><b>Rupesh</b><br>
+		160050042</td>
+	</tr>
+	<tr>
+		<td>Btech II<sup>nd</sup> year</td>
+	</tr>
+	<tr>
+		<td><a href="https://www.cse.iitb.ac.in">Computer Science</a></td>
+	</tr>
+	<tr>
+		<td><a href="http://www.iitb.ac.in">IIT Bombay</a></td>
+	</tr>
+</table>
+<!-- <td width="20%">
+	<ul style="list-style: square;">
+		<li>
+			<a href="#intres">Interest</a>
+		</li>
+		<li>
+			<a href="#proje"> Project</a>
+		</li>
+		<li>
+			<a href="#conta">Contact</a> 
+		</li>
+		<li>
+			<a href="#tab">Education</a> 
+		</li>
+
+	</ul>
+</td> -->
+ 
+			</td>
+		</tr>
+	</tbody>
+</table></font>
+</div>
+
+<div class="img1">
+</div>
+
+
+
+<p id = "intres"><h3 id = "intr">INTEREST</h3>
+<div id="int">
+Competitive Coding <br>
+Web Development<br>
+Table Tennis<br>
+Novels
+</div>
+
+</p>
+<br>
+<hr>
+<table width="100%">
+<tr>
+<td width="30%">
+<div id ="proje">
+<h3 style="font-family: 'Tangerine'; font-size: 5vw;">PROJECT</h3>
+	<ol>
+		<li>
+			<a href="https://github.com/dungeon-masterRupesh/Game-of-life">Game of life</a>
+		</li>
+		<li>
+	<a href = "https://github.com/ashish-221b/Encrypthor">		Encrypthor
+	</a>	</li>
+		<li>
+			Crypto-suite
+		</li>
+		<li>
+<a href = "https://github.com/ashish-221b/Interactive-Text-Book"> Interactive-TextBook</a></li>
+<li>	<a href = "https://github.com/ashish-221b/Hack-U">Desktop Buddy</a></li>
+</ol>
+</div>
+</td>
+<td>
+	<div class="imggp"> 
+		
+	</div>
+</td>
+</tr>
+</table>
+
+
+
+<br>
+<hr>
+<p id="conta">
+	<h3 style="font-family: 'Tangerine'; font-size: 5vw;">CONTACT</h3>
+	<table id="cont" align="center">
+		<tr>
+			<td width="40%">
+				<ul style="list-style: none;">
+				<li>Emaid-Id</li>
+				<li>Phone</li>
+				<li>FB-Id</li>
+				<li>Github-Id</li>
+				</ul>
+			</td>
+			<td width="10%">
+				<ul style="list-style: none;">
+				<li>:</li>
+				<li>:</li>
+				<li>:</li>
+				<li>:</li>
+				</ul> 
+			</td>
+			<td width="50%">
+				<ul style="list-style: none;">
+				<li>
+				<a href="mailto:rupesh95903@gmail.com">rupesh95903@gmail.com</a>
+<!-- this code of mailing to is based on an information on website "http://help.typepad.com/link-to-an-email-address.html" -->
+
+				</li>
+				<li>+91-78380 05028</li>
+				<li class="abc">
+					<a href="https://www.facebook.com/Rupeshloveschocolate">
+						
+					Rupeshloveschocolate
+					
+					</a>
+				</li>
+				<li class="abc"><a href="https://github.com/dungeon-masterRupesh">
+
+dungeon-masterRupesh
+</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	
+</p>
+<br>
+<hr>
+<div id="edu">
+<table id="tab" align="center">
+	<thead>
+		<h3 style="font-size: 3vw"><b><center>Education</center></b></h3>
+	</thead>
+	<tr style="font-size: 2vw;">
+		<th width="20%">
+			Qualification
+		</th>
+		<th width="25%">
+			Institution
+		</th>
+		<th width="25%">
+			Stream(if applicable)
+		</th>
+		<th width="15%">
+			Year
+		</th>
+		<th width="15%">
+			Score
+		</th>
+	</tr>
+	<tr>
+		<th>
+			Class 10
+		</th>
+		<th>
+			Ramakrishna Mission Vidyapith, Deoghar
+		</th>
+		<th>
+			<center>-</center>
+		</th>
+		<th>
+			2009-14
+		</th>
+		<th>
+			10
+		</th>
+	</tr>
+	<tr>
+		<th>
+			Class 12
+		</th>
+		<th>
+			Lal Bahadur Shashtri School
+		</th>
+		<th>
+			PCM(science)
+		</th>
+		<th>
+			2014-16
+		</th>
+		<th>
+			96.6%
+		</th>
+	</tr>
+	<tr>
+		<th>
+			Graduation
+		</th>
+		<th>
+			IIT Bombay
+		</th>
+		<th>
+			Computer science and Engg.
+		</th>
+		<th>
+			2016-present
+		</th>
+		<th>
+			On-going
+		</th>
+	</tr>
+</table></div>
+<br>
+<div class="img2"></div>
+<form id="form">
+	<fieldset
+    <legend><b><i><center><h2><font size="6vw">Online Query:</font></h2></center></i></b></legend>
+	Name: <br>
+	<input type="text" name="name"><br>
+	Email Id: <br>
+	<input type="text" name="email"><br>
+	Phone No. :<br>
+	<input type="text" name="phone"><br>
+	Query: <br>
+	<input type="text" name="Query" ><br><br>
+	<input type="submit" name="Submit"><br>
+ </fieldset>
+</form>
+
+<body>
+<footer id="foot"><a href="credit.htm" title="click to go to Credits page">Credits</a></footer>
+</html>
+<!--Tangerine:-->
